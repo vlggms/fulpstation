@@ -292,6 +292,29 @@
 	..()
 	. = 1
 
+//new//
+datum/reagent/consumable/shirley_temple
+	name = "Shirley Temple"
+	description = "Space-up, Grenadine, and Orange Juice."
+	color = "#FFE48C" // rgb: 255, 228, 140
+	quality = DRINK_GOOD
+	taste_description = "Sweet tonic cherries"
+	glass_icon_state = "shirley_temple"
+	glass_name = "Shirley Temple"
+	glass_desc = "Reminds you of the days restaurants served this to kids..."
+//new//
+
+//new//
+	/datum/reagent/consumable/milkshake
+	name = "Milkshake"
+	description = "Milkshake! makes you crave a truck burger 'n' heap of fries."
+	color = "#DFDFDF" // rgb: 223, 223, 223
+	taste_description = "sweet and sugary milk"
+	glass_icon_state = "milkshake"
+	glass_name = "Milkshake"
+	glass_desc = "Milkshake! makes you crave a truck burger 'n' heap of fries!"
+//new//
+
 /datum/reagent/consumable/lemonade
 	name = "Lemonade"
 	description = "Sweet, tangy lemonade. Good for the soul."
