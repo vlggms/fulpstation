@@ -339,17 +339,7 @@
 	results = list(/datum/reagent/consumable/pumpkin_latte = 15)
 	required_reagents = list(/datum/reagent/consumable/pumpkinjuice = 5, /datum/reagent/consumable/coffee = 5, /datum/reagent/consumable/cream = 5)
 
-//new//
-/datum/chemical_reaction/milkshake
-	results = list(/datum/reagent/consumable/milkshake = 15)
-	required_reagents = list(/datum/reagent/consumable/milk = 5, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/cream = 5)
-//new//
 
-//new//
-/datum/chemical_reaction/shirley_temple
-	results = list(/datum/reagent/consumable/shirley_temple = 5)
-	required_reagents = list(/datum/reagent/consumable/space_up = 2, /datum/reagent/consumable/orangejuice = 2, /datum/reagent/consumable/grenadine = 1)
-//new//
 
 /datum/chemical_reaction/gibbfloats
 	results = list(/datum/reagent/consumable/gibbfloats = 15)
