@@ -292,8 +292,6 @@
 	..()
 	. = 1
 
-
-
 /datum/reagent/consumable/lemonade
 	name = "Lemonade"
 	description = "Sweet, tangy lemonade. Good for the soul."
