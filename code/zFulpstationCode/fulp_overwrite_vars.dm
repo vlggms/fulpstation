@@ -232,13 +232,13 @@
 		/obj/item/assembly/signaler/cyborg,
 		/obj/item/areaeditor/blueprints/cyborg,
 		/obj/item/electroadaptive_pseudocircuit,
-		/obj/item/stack/sheet/metal/cyborg,
-		/obj/item/stack/sheet/glass/cyborg,
+		/obj/item/stack/sheet/metal,
+		/obj/item/stack/sheet/glass,
 		/obj/item/stack/sheet/rglass/cyborg,
 		/obj/item/stack/rods/cyborg,
-		/obj/item/stack/tile/plasteel/cyborg,
+		/obj/item/stack/tile/plasteel,
 		/obj/item/borg/apparatus/circuit,
-		/obj/item/stack/cable_coil/cyborg)
+		/obj/item/stack/cable_coil)
 
 /obj/item/borg/apparatus/circuit
 	name = "basic component manipulation apparatus"

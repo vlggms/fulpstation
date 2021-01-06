@@ -31,14 +31,14 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/update_icon_state()
 	. = ..()
 	icon = initial(icon)
-	if(R.glass_tegu)
-		icon = 'icons/Fulpicons/fulpitems.dmi' //Tegu, obviously.
 
 	if(!length(reagents.reagent_list))
 		icon_state = "glass_empty"
 		return
 
 	var/datum/reagent/largest_reagent = reagents.get_master_reagent()
+	if(largest_reagent.glass_tegu)
+		icon = 'icons/Fulpicons/fulpitems.dmi' //Tegu, obviously.
 	if(largest_reagent.glass_icon_state)
 		icon_state = largest_reagent.glass_icon_state
 	return NONE
