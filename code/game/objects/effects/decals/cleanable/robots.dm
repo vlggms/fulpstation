@@ -11,6 +11,11 @@
 	bloodiness = BLOOD_AMOUNT_PER_DECAL
 	mergeable_decal = FALSE
 	beauty = -50
+	clean_type = CLEAN_TYPE_BLOOD
+
+/obj/effect/decal/cleanable/robot_debris/Initialize()
+	. = ..()
+	RegisterSignal(src, COMSIG_MOVABLE_PIPE_EJECTING, .proc/on_pipe_eject)
 
 /obj/effect/decal/cleanable/robot_debris/Initialize()
 	. = ..()
@@ -67,6 +72,7 @@
 	blood_state = BLOOD_STATE_OIL
 	bloodiness = BLOOD_AMOUNT_PER_DECAL
 	beauty = -100
+	clean_type = CLEAN_TYPE_BLOOD
 
 /obj/effect/decal/cleanable/oil/Initialize()
 	. = ..()
