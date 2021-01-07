@@ -1,10 +1,10 @@
-	//DIGISUITS//
+//DIGISUITS//
 
-/datum/species/proc/digisuit_icon_check(var/obj/item/clothing/under/U) //checks for digi variant
+/datum/species/proc/digisuit_icon_check(obj/item/clothing/under/U) //checks for digi variant
 	return U.mutantrace_variation != MUTANTRACE_VARIATION
 
 
-/mob/living/carbon/human/proc/digisuit_icon_update(var/obj/item/clothing/under/U)
+/mob/living/carbon/human/proc/digisuit_icon_update(obj/item/clothing/under/U)
 	if(U.fulp_digisuit)
 		U.worn_icon = 'icons/Fulpicons/mith_stash/clothing/under_worn.dmi'
 
@@ -239,4 +239,3 @@ GLOBAL_LIST_INIT(digisuits, list(
 		fulp_digisuit = TRUE
 		mutantrace_variation = MUTANTRACE_VARIATION
 */
-

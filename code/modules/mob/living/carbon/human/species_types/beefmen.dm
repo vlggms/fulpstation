@@ -54,7 +54,7 @@
 	cellulardamage_desc = "meat degradation"
 
 
-/proc/proof_beefman_features(var/list/inFeatures)
+/proc/proof_beefman_features(list/inFeatures)
 	// Missing Defaults in DNA? Randomize!
 	if (inFeatures["beefcolor"] == null || inFeatures["beefcolor"] == "")
 		inFeatures["beefcolor"] = GLOB.color_list_beefman[pick(GLOB.color_list_beefman)]
@@ -63,7 +63,7 @@
 	if (inFeatures["beefmouth"] == null || inFeatures["beefmouth"] == "")
 		inFeatures["beefmouth"] = pick(GLOB.mouths_beefman)
 
-/mob/living/carbon/human/proc/adjust_bl_all(var/type = "add", var/amount)
+/mob/living/carbon/human/proc/adjust_bl_all(type = "add", amount)
 	for(var/i in bodyparts)
 		var/obj/item/bodypart/BP = i
 		switch(type)
@@ -320,7 +320,7 @@
 
 			// Pry it off...
 			user.visible_message("[user] grabs onto [p_their()] own [affecting.name] and pulls.", \
-					 	 "<span class='notice'>You grab hold of your [affecting.name] and yank hard.</span>")
+			"<span class='notice'>You grab hold of your [affecting.name] and yank hard.</span>")
 			if (!do_mob(user,target))
 				return TRUE
 
@@ -351,10 +351,10 @@
 		if ((target_zone in allowedList))
 			if (user == H)
 				user.visible_message("[user] begins mashing [I] into [H]'s torso.", \
-						 	 "<span class='notice'>You begin mashing [I] into your torso.</span>")
+				"<span class='notice'>You begin mashing [I] into your torso.</span>")
 			else
 				user.visible_message("[user] begins mashing [I] into [H]'s torso.", \
-						 	 "<span class='notice'>You begin mashing [I] into [H]'s torso.</span>")
+				"<span class='notice'>You begin mashing [I] into [H]'s torso.</span>")
 
 			// Leave Melee Chain (so deleting the meat doesn't throw an error) <--- aka, deleting the meat that called this very proc.
 			spawn(1)
