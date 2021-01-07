@@ -43,11 +43,11 @@
 	results = list(/datum/reagent/medicine/CF/styptic = 3)*/
 
 
-/obj/item/clothing/accessory
-	worn_icon = 'icons/mob/clothing/accessories.dmi'
+//obj/item/clothing/accessory
+	//worn_icon = 'icons/mob/clothing/accessories.dmi'
 
-/obj/item/clothing/suit/space/hardsuit
-	var/toggle_helmet_sound = 'sound/mecha/mechmove03.ogg'
+//obj/item/clothing/suit/space/hardsuit
+	//var/toggle_helmet_sound = 'sound/mecha/mechmove03.ogg'
 
 //*************************************************************************
 //** FULPSTATION IMPROVED RECORD SECURITY PR -Surrealistik Oct 2019 BEGINS
@@ -62,7 +62,6 @@
 	var/id_violation
 	var/record_violation
 	var/harm_violation
-
 
 //*************************************************************************
 //** FULPSTATION IMPROVED RECORD SECURITY PR -Surrealistik Oct 2019 ENDS
@@ -287,11 +286,6 @@
 	var/buffer_disguise //for RA2 spy style scan of other borgs.
 	var/buffer_disguise_text //for RA2 spy style scan of other borgs.
 	actions_types = list(/datum/action/item_action/borg_chameleon)
-
-
-/obj/item/reagent_containers/borghypo/syndicate
-	desc = "An experimental piece of Syndicate technology used to produce powerful restorative nanites used to very quickly restore injuries of all types. Also synthesizes potassium iodide for radiation poisoning and lipolicide and anacea for stealthy kills and heparin for more overt ones."
-
 
 //***************************************************************************
 //** FULPSTATION SYNDIBORG DISGUISE MENU by Surrealistik March 2020 ENDS

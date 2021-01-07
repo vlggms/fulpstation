@@ -1,5 +1,5 @@
 "a" = (/turf/template_noop,/area/template_noop)
-"b" = (/turf/closed/mineral/random/no_caves,/area/ruin/unpowered)
+"b" = (/turf/closed/mineral/random,/area/ruin/unpowered)
 "c" = (/turf/closed/mineral/random/low_chance,/area/ruin/unpowered)
 "d" = (/turf/closed/mineral/bscrystal,/area/ruin/unpowered)
 
