@@ -17,10 +17,6 @@
 	. = ..()
 	RegisterSignal(src, COMSIG_MOVABLE_PIPE_EJECTING, .proc/on_pipe_eject)
 
-/obj/effect/decal/cleanable/robot_debris/Initialize()
-	. = ..()
-	RegisterSignal(src, COMSIG_MOVABLE_PIPE_EJECTING, .proc/on_pipe_eject)
-
 /obj/effect/decal/cleanable/robot_debris/proc/streak(list/directions, mapload=FALSE)
 	set waitfor = FALSE
 	var/direction = pick(directions)
