@@ -1,6 +1,10 @@
+/datum/outfit
+	var/digitifit = FALSE
+
 /datum/outfit/digitigrade
 	name = "Digitigrade Shoes"
 	shoes = /obj/item/clothing/shoes/sneakers/brown/digitigrade
+	digitifit = TRUE
 
 /datum/outfit/digitigrade/laceups
 	name = "Laceup Digitigrade"
