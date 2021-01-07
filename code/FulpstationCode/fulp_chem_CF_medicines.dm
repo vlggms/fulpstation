@@ -74,5 +74,5 @@
 /datum/chemical_reaction/silver_sulfadiazine
 	//name = "Silver Sulfadiazine"
 	//id = /datum/reagent/medicine/CF/silver_sulfadiazine
-	results = list(/datum/reagent/medicine/CF/silver_sulfadiazine = 4)
-	required_reagents = list(/datum/reagent/silver = 1, /datum/reagent/sulfur = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1)
+	results = list(/datum/reagent/medicine/CF/silver_sulfadiazine = 2)
+	required_reagents = list(/datum/reagent/silver = 1, /datum/reagent/medicine/c2/lenturi = 1)
