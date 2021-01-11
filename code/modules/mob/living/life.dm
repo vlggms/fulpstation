@@ -43,6 +43,8 @@
 
 		handle_wounds()
 
+		reagents.metabolize(src)
+
 		if (QDELETED(src)) // diseases can qdel the mob via transformations
 			return
 
