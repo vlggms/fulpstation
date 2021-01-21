@@ -1,10 +1,11 @@
-
-/obj/item/food/fulp
-	name = "fulp_food"
+/obj/item/food/tegu
+	name = "Tegu Pie"
 	icon = 'icons/Fulpicons/fulpitems.dmi'
-	desc = "correction: tegu food."
+	icon_state = "sheppie"
+	desc = "Made from pure spirit of freedom."
+	tastes = list("freedom" = 2, "coding" = 1, "admins" = 1)
 
-/obj/item/food/fulp/sheppie
+/obj/item/food/tegu/sheppie
 	name = "shepherd's pie"
 	icon_state = "sheppie"
 	desc = "Finally, not that store-bought crap!"
@@ -20,10 +21,10 @@
 		/obj/item/food/grown/corn = 1,
 		/obj/item/food/grown/potato = 2,
 	)
-	result = /obj/item/food/fulp/sheppie
+	result = /obj/item/food/tegu/sheppie
 	subcategory = CAT_MEAT
 
-/obj/item/food/fulp/chickenrisotto
+/obj/item/food/tegu/chickenrisotto
 	name = "chicken risotto"
 	icon_state = "chickenrisotto"
 	desc = "Extremely creamy and tasty with lots of spices!"
@@ -38,5 +39,5 @@
 		/datum/reagent/consumable/rice = 10,
 		/obj/item/food/butter = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/chicken_risotto
+	result = /obj/item/food/tegu/chickenrisotto
 	subcategory = CAT_MEAT
