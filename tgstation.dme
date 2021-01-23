@@ -763,6 +763,7 @@
 #include "code\FulpstationCode\fulp_medborg\medborg_holobed.dm"
 #include "code\FulpstationCode\fulp_mobs\butcher.dm"
 #include "code\FulpstationCode\fulp_mobs\chaos_marine.dm"
+#include "code\FulpstationCode\fulp_new_foods\food.dm"
 #include "code\FulpstationCode\fulp_starter_gear\fulp_starter_gear.dm"
 #include "code\FulpstationCode\fulp_syndiborg_files\fulp_syndicate_medborg.dm"
 #include "code\FulpstationCode\Fulp_traitor_items\deadly_laser_tag.dm"
